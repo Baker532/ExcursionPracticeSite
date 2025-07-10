@@ -5,19 +5,53 @@ html {
     text-align: center;
 }
 
+header {
+    max-width: 100%;
+}
+
 body {
     background-color: black;
+
+}
+
+main {
+    max-width: 80%;
+    justify-self: center;
 }
 
 header h1 {
-    font-size: 3.125rem
+    font-size: 2.75rem;
+    font-weight: normal;
 }
 
-header a {
+a {
     color: aquamarine;
     font-size: 1rem;
 }
 
 .vid { 
-    margin-top: 2rem;;
+    margin-top: 2rem;
+    flex: 1 1 100%;
+}
+
+.container {
+    display: flex;
+    justify-self: center;
+    margin-top: 2rem;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 3rem;
+    justify-self: center;
+    margin-top: 2rem;
+}
+
+footer p {
+    justify-self: right;
+    margin-right: 0;
 }
