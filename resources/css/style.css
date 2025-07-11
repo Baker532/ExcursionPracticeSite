@@ -11,12 +11,11 @@ header {
 
 body {
     background-color: black;
-
 }
 
 main {
     max-width: 80%;
-    justify-self: center;
+    margin: auto;
 }
 
 header h1 {
@@ -30,14 +29,21 @@ a {
 }
 
 .vid { 
-    margin-top: 2rem;
-    flex: 1 1 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .container {
-    display: flex;
-    justify-self: center;
-    margin-top: 2rem;
+    margin: auto;
     
 }
 
@@ -47,7 +53,7 @@ img {
 
 .icon {
     width: 3rem;
-    justify-self: center;
+    margin: auto;
     margin-top: 2rem;
 }
 
