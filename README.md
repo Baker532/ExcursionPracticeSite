@@ -38,7 +38,7 @@ root/
 
 ## 📸 Preview
 
-https://www.Baker532.github.io/ExcursionPracticeSite
+https://baker532.github.io/ExcursionPracticeSite/
 
 Made with` 💻<3 `by Matt Baker
 
